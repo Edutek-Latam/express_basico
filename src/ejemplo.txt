@@ -1,0 +1,16 @@
+ Lorem Ipsum es un texto pseudolatino utilizado en las industrias de impresión y composición tipográfica. Desde la década de 1500, cuando un 
+ impresor desconocido codificó una galera de tipos para hacer un libro de muestras tipográficas, Lorem Ipsum ha sido el texto ficticio estándar 
+ de la industria. No solo ha sobrevivido cinco siglos, sino también la transición a la composición tipográfica electrónica, permaneciendo e
+ sencialmente sin cambios. Ganó popularidad en la década de 1960 con el lanzamiento de hojas de Letraset que contenían pasajes de Lorem Ipsum y, más recientemente, con software 
+ de autoedición como Aldus PageMaker, que incluye versiones de Lorem Ipsum.
+
+Lorem Ipsum no es solo texto aleatorio, contrariamente a la creencia popular. Sus orígenes se remontan al 45 a. C. en la literatura latina clásica, por lo que tiene más de 2000 años. Richard McClintock, 
+profesor de latín en Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, en un pasaje de Lorem Ipsum y descubrió la fuente innegable al revisar las citas de la 
+palabra en la literatura clásica. Lorem Ipsum está tomado de 'de Finibus Bonorum et Malorum' (Los extremos del bien y del mal) de Cicerón, que fue escrito en el 45 a. Este libro es un tratado popular sobre 
+la teoría de la ética durante el Renacimiento. La primera línea de Lorem Ipsum, 'Lorem ipsum dolor sit amet..', proviene de una línea en la sección 1.10.32. Para aquellos que estén interesados, el fragmento 
+estándar de Lorem Ipsum utilizado desde el siglo XVI se reproduce a continuación. Las secciones 1.10.32 y 1.10.33 de 'de Finibus Bonorum et Malorum' de Cicerón también se reproducen en su forma original exacta, 
+acompañadas de traducciones al inglés de la traducción de 1914 de H. Rackham.
+
+Es un hecho bien conocido que un lector se distraerá con el contenido legible de una página al mirar su diseño. El punto de usar Lorem Ipsum es que tiene una distribución de letras más o menos normal, a 
+diferencia de usar 'Contenido aquí, contenido aquí', que hace que parezca un inglés legible. Muchos paquetes de autoedición y editores de páginas web ahora usan Lorem Ipsum como su modelo de texto predeterminado, 
+y una búsqueda de 'lorem ipsum' revelará muchos sitios web nuevos. Varias versiones han surgido a lo largo del tiempo, a veces por casualidad, a veces a propósito (humor inyectado y similares). 
