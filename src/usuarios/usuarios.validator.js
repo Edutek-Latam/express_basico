@@ -53,9 +53,11 @@ function getMessage(error){
 function userMiddleware(req=request, res=response,next){
     const body = req.body
     const schema = Joi.object({
-        primer_nombre:Joi.string().min(3).required(),
-        primer_apellido: Joi.string().min(3).required(),
-        edad: Joi.number().positive().required()
+        firstName:Joi.string().min(3).required(),
+        lastName: Joi.string().min(3).required(),
+        email: Joi.string().email().required(),
+        password: Joi.string().min(3).required(),
+
     })
     const {error, value} = schema.validate(body,{abortEarly: false});
    if(error){

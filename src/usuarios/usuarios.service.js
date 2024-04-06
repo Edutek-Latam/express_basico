@@ -1,25 +1,32 @@
 const data =require('../data.json');
 const { v4: uuidv4 } = require('uuid');
+const db = require('../config/db');
 
-function findAll(){
-    return data;
+
+async function findAll(){
+    const users = await db.User.findAll( {attributes: { exclude: ['isActive'] }});
+    return users;
 }
 
-
-function findById(id){
-    const user = data.find(elment => elment.id === id)
+/**
+ * 
+ * @param {*} id 
+ * @returns 
+ */
+async function findById(idUser){
+    //const user = await db.User.findByPk(id);   //data.find(elment => elment.id === id)
+    const user = await db.User.findOne({where:{ id:idUser, lastName:'Funtes' }});   //data.find(elment => elment.id === id)
+    
     if(!user){
         return false
     }
-
     return user
 }
 
-function create(usuario){
-    const id = uuidv4();
-    const newUser = {id, ...usuario}
-    data.push(newUser);
-    return newUser;
+async function create(usuario){
+   const user = new db.User(usuario)
+   const newUser =  await user.save()
+   return newUser;
 }   
 
 function update(id,usuario){

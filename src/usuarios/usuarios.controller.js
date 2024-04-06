@@ -4,14 +4,14 @@ const _userService = require('./usuarios.service')
 
 const validation = require('./usuarios.validator')
 
-function findAll(req=request, res=response){
-    res.status(200).send(_userService.findAll());
-    //res.status(200).send(data)
+async function findAll(req=request, res=response){
+    res.status(200).send(await _userService.findAll());
+    
 }
 
-function findByID(req=request, res=response){
+async function findByID(req=request, res=response){
     const { id } = req.params
-    const user = _userService.findById(id);
+    const user = await _userService.findById(id);
     if(!user){
         res.status(404).send({erro:true,messaje:'No existe'});
         return;
@@ -19,11 +19,11 @@ function findByID(req=request, res=response){
     res.status(200).json(user)
 }
 
-function create(req=request, res=response){
+async function create(req=request, res=response){
     const body = req.body;
     //const isValid = validation.validateBody(body);
     //if(isValid ===true){
-       const newUser =  _userService.create(body);
+       const newUser = await _userService.create(body);
         res.status(200).send(newUser);
     //    return;
    // }

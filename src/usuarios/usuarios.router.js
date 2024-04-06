@@ -9,5 +9,4 @@ router.post('/user',validator.userMiddleware,  _userController.create);
 router.put('/user/:id',validator.userUpdateValidate,   _userController.update);
 router.delete('/user/:id',_userController.remove);
 
-
 module.exports = router
